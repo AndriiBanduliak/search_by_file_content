@@ -30,6 +30,5 @@ def print_find_info(file, content, find_string):
     print(f"{file}:\n{content}")
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     find(DIRECTORY, FIND_STRING)
